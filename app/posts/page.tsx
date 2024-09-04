@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
-export default function page() {
+export default function Page() {
   const [value, setValue] = useState<any>();
   const router = useRouter();
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
